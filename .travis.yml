@@ -6,6 +6,7 @@ node_js:
   - "iojs"
 before_script:
   - npm install -g gulp bower
-  - npm install
   - bower install
-script: gulp
+script:
+  - gulp test:local
+  - gulp
