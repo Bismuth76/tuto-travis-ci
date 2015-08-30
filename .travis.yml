@@ -8,5 +8,5 @@ before_script:
   - npm install -g gulp bower
   - bower install
 script:
-  - gulp test:local
+#  - gulp test:local
   - gulp
