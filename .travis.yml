@@ -9,4 +9,5 @@ before_script:
   - bower install
 script:
 #  - gulp test:local
-  - gulp
+#  - gulp
+  - wct -l chrome
