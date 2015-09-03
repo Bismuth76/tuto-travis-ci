@@ -10,4 +10,4 @@ before_script:
 script:
 #  - gulp test:local
 #  - gulp
-  - wct -l chrome
+  - wct
